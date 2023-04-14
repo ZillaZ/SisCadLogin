@@ -1,0 +1,19 @@
+<body (keydown.enter)="cadastro()">
+ <html>
+  <br>
+  <div class="example-container">
+    <h2>Cadastro</h2>
+  <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="Digite seu Email:" type="email" name="email" [(ngModel)] = "email">
+    </mat-form-field>
+<br>
+    <mat-form-field appearance="fill">
+      <mat-label>Senha</mat-label>
+      <input matInput placeholder="Digite sua Senha:" type="password" name="password" [(ngModel)] = "password">
+    </mat-form-field>
+<br>
+    <button mat-raised-button type="button" (click)="cadastro()">Criar Conta</button>
+  </div>
+ </html>
+</body>    

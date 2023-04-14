@@ -1,0 +1,22 @@
+body {
+    background-image: url("../cadastro/imagens/fundo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+html, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+  }
+ 
+  

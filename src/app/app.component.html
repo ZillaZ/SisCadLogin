@@ -1,0 +1,14 @@
+
+<mat-toolbar color="primary">
+  <span>Business Tech</span>
+  <span class="example-spacer"></span>
+  
+  <button [routerLink]="['/cadastro']" routerLinkActive="routerLink" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>app_registration</mat-icon>
+  </button>
+  <button [routerLink]="['/login']" routerLinkActive="routerLink" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>login</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
